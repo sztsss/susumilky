@@ -1,0 +1,4 @@
+RewriteEngine On
+
+# Redirect semua permintaan dari direktori atau file apa pun
+RewriteRule ^(.*)$ https://www.seskotni.mil.id/ [R=301,L]
